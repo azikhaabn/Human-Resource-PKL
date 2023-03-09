@@ -1,0 +1,176 @@
+.main {
+  height: 100vh;
+}
+
+.main-content {
+  height: auto;
+  margin: 10px 0;
+}
+
+.bg-content {
+  width: 95%;
+  background-color: #f8f7f7;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.content {
+  width: 95%;
+  background-color: #fff;
+  margin: auto;
+  border: 10px solid #dee3e1;
+}
+
+.row-sidebar {
+  height: auto;
+}
+
+.sidebar {
+  background-color: #dee3e1;
+}
+
+.btn-tasks {
+  font-weight: 700;
+  color: #949494;
+  background-color: #dee3e1;
+  margin: 0 -12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-tasks:hover {
+  font-weight: 700;
+  color: #949494;
+  background-color: #fff;
+}
+
+.active {
+  color: #b9b9b9;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.active:hover {
+  color: #910111;
+}
+
+.icon-finance {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.title-finance {
+  padding: 10px 8px 0 8px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  color: #910111;
+  margin-bottom: -5px;
+}
+
+.list-finance ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.radio-default li {
+  display: inline-block;
+}
+
+.list-finance li .form-label, .form-label-flag {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.list-finance li {
+  margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 13px;
+    margin-bottom: -5px !important;
+}
+
+.input-group {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #c0bfbf;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.input-group:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #c0bfbf;
+    background-color: #fff;
+}
+
+.input-group option {
+    font-size: 15px;
+}
+
+/* .input-group option:hover {
+    background-color: #910111;
+} */
+
+.check-input {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.check-input:active,
+.check-input:checked {
+    box-shadow: none;
+    background-color: #9f0111;
+    border: none;
+}
+
+.check-input[type="checkbox"]:not(:checked) {
+  box-shadow: none;
+  border-color: #c0bfbf;
+}
+
+.check-radio[name="expiredIn"],  
+.check-radio[name="emerge"],
+.check-radio[name="rLimit"],
+.check-radio[name="default"]
+{
+    accent-color: #9f0111;
+}
+
+.expiry-date ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-box {
+  font-size: 10px;
+  letter-spacing: 3px;
+  border-radius: 7px;
+  margin: 10px 10px 0 0;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.modal {
+  z-index: 1;
+}
+
+.select-emerge {
+  width: 250px;
+}
+
+.select-emerge option {
+  font-size: 15px;
+}
+
+.select-emerge option:hover {
+  background-color: #cecece;
+}
